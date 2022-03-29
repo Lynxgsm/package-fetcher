@@ -3,6 +3,10 @@ const { resolve } = require("path");
 const { execSync } = require("child_process");
 const { PACKAGEFILE, PACKAGEDIR } = require("../constants/path");
 
+// Utilisation de pnpm pour permettre la réutilisation des packages
+// N'oubliez pas d'installer pnpm si vous voulez tester
+// npm i -g pnpm
+
 module.exports = {
   createDirectory(name) {
     const _path = resolve(PACKAGEDIR, name);
