@@ -5,8 +5,8 @@ Ce projet contient un boilerplate pour un bot messenger et l'executable Windows 
 
 ## 1 - Configurer facebook
 
-- Créer un compte (développeur facebook)[https://developers.facebook.com/]
-- Aller dans la section ("apps")[https://developers.facebook.com/apps/]
+- Créer un compte [développeur facebook](https://developers.facebook.com/)
+- Aller dans la section ["apps"](https://developers.facebook.com/apps/)
 - Créer une application, sélectionnez "Aucun" dans type d'application et donnez-lui un nom
 - Lorsque l'application est créée, cliquez sur "Configurer" dans la case _"Messenger"_
 - Scrollez pour voir la partie **Token d'accès**
@@ -25,7 +25,7 @@ Ce projet contient un boilerplate pour un bot messenger et l'executable Windows 
 
 ## 3 - Connecter le bot et l'application
 
-- Revenir sur le site (developers.facebook)[https://developers.facebook.com] et revenez dans l'onglet _Messenger>Paramètres_
+- Revenir sur le site [developers.facebook](https://developers.facebook.com) et revenez dans l'onglet _Messenger>Paramètres_
 - Localisez le bouton Appeler l'URL de rappel. Ici vous allez renseignez le _*FB_VERIFY_TOKEN*_ que vous avez spécifié et l'URL du bot. Evidemment, facebook n'accepte que les liens sécurisés d'où la nécéssité d'utiliser **ngrok**
 - Le bot étant démarré sur le port que vous voulez (à spécifier dans votre fichier .env), lancez la commande `ngrok http ${PORT}` où PORT ici est la valeur de votre port. Cela va démarrer une instance https relié à votre application.
 - Renseignez ensuite cet URL dans l'URL de rappel et votre _*FB_VERIFY_TOKEN*_ dans la case _Vérifier le jeton_
