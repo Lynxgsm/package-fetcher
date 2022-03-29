@@ -1,10 +1,11 @@
 {
   "dependencies": {
-    "better-bootbot": "^1.1.2",
+    "better-bootbot": "https://github.com/Lynxgsm/better-bootbot.git",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "env-var": "^7.1.1",
     "fastify": "^3.27.4",
-    "fastify-multer": "^2.0.2"
+    "fastify-multer": "^2.0.2",
+    "text-from-image": "^1.1.1"
   }
 }
