@@ -2,6 +2,8 @@
   "dependencies": {
     "better-bootbot": "^1.1.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "env-var": "^7.1.1",
     "fastify": "^3.27.4",
     "fastify-multer": "^2.0.2"
   }
