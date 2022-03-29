@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "better-bootbot": "^1.1.2",
+    "cors": "^2.8.5",
+    "fastify": "^3.27.4",
+    "fastify-multer": "^2.0.2"
+  }
+}
