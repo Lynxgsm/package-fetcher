@@ -34,6 +34,13 @@ Ce projet contient un boilerplate pour un bot messenger et l'executable Windows 
 
 /_A rédiger_/
 
+## 5 - TO DO
+
+- Decider si on peut utiliser directement l'upload du fichier package.json ou si l'on doit prendre une image du package.json que l'on va transcrire en texte
+- Créer un dossier pour chaque package utilisé par un utilisateur
+- Créer un fichier zip pour les packages voulus
+- Facebook limite la taille maximale des fichiers que l'on peut envoyer sur Messenger à 25MB. Il faudrait un système permettant de splitter les packages dans le cas où cela dépasse cette limite.
+
 ## Notes
 
 curl https://graph.facebook.com/v2.12/me/messenger_profile?access_token=
